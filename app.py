@@ -1,7 +1,7 @@
 from flask import Flask, render_template, url_for
 from flask_socketio import SocketIO, send
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='/static')
 socketio = SocketIO(app, cors_allowed_origins="*")
 
  
@@ -13,6 +13,7 @@ def sendMessage(message):
 @app.route("/")
 def index():
     return render_template('index.html')
+
 
 @app.route("/chat")
 def message():
