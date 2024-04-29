@@ -12,10 +12,7 @@ def sendMessage(message):
 
 @app.route("/")
 def index():
-    # Generate URL for the 'message' route
-    chat_url = url_for('message')
-    return render_template("index.html", chat_url=chat_url)
-
+    return render_template('index.html')
 
 @app.route("/chat")
 def message():
