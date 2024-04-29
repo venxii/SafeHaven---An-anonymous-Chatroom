@@ -11,3 +11,5 @@
 </p>
 <p>This web application focuses on these witnesses who need guidance to figure out their next move and having an application where they can safely communicate with lawyers without disclosing their identity and without letting the perpetrators know their next move.
 </p>
+
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/frontpage.png)
