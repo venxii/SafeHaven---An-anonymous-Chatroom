@@ -16,6 +16,5 @@
 ![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Features.png))
 ![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Services.png))
 ![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Clients.png))
-
-
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/chatroom.png))
 
