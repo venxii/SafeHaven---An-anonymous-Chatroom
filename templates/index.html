@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>SafeHaven Shield</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href= "{{ url_for('static', filename='images/favicon.ico') }}" title="Favicon"/>
+    
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/namari-color.css') }}">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+
+
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+                    <!--Logo-->
+                    <div id="logo">
+
+                        <!--Logo that is shown on the banner-->
+                        <img src= "{{ url_for('static', filename='images/SafeHaven.png') }}" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Banner Logo-->
+
+                        <!--The Logo that is shown on the sticky Navigation Bar-->
+                        <img src= "{{ url_for('static', filename='images/SafeHaven.png') }}" id="banner-logo" alt="Landing Page"/>
+                        <!--End of Navigation Logo-->
+
+                    </div>
+                    <!--End of Logo-->
+
+                    <aside>
+
+                        <!--Social Icons in Header-->
+                        <ul class="social-icons">
+                            <li>
+                                <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                    <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Google+" href="http://google.com/+username">
+                                    <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                    <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                    <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--End of Social Icons in Header-->
+
+                    </aside>
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="#banner">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#clients">Clients</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Unveiling Safety Preserving Anonymity</h1>
+                    <h2>A secure chatroom platform where individuals can connect with experienced lawyers and legal advisors from reputable firms without disclosing any personal information. </h2>
+                </div>
+
+                <!--Call to Action-->
+                <a href="http://127.0.0.1:5000/chat" class="button">GO TO CHATROOM</a>
+                <!--End Call to Action-->
+
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+        <!--Introduction-->
+        <section id="about" class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>SUCCESS</h3>
+                        <h2 class="section-title">A Conscientious Approach to Making Things Right </h2>
+                        <p class="section-subtitle">Empowering witnesses to step forawrd safely, our web application
+                            provides a secure haven for accessing protection services and navigating the path to justice
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-users fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Anonimity</h4>
+                            <p>Report incidents anonymously and access protection services without revealing your identity
+                            </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-phone fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Emergency response</h4>
+                            <p>A hotline to request immediate assistance in threatening situations
+                            </p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-shield fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Safety</h4>
+                            <p>Provides a secure platform to communicate with law enforcement.</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                    <!--Icon Block-->
+                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                        <!--Icon-->
+                        <div class="icon">
+                            <i class="fa fa-legal fa-2x"></i>
+                        </div>
+                        <!--Icon Block Description-->
+                        <div class="icon-block-description">
+                            <h4>Lawyer Credibility</h4>
+                            <p>Lawyers and legal advisors from trusted firms available to guide</p>
+                        </div>
+                    </div>
+                    <!--End of Icon Block-->
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Introduction-->
+
+        <!--Content Section-->
+        <div id="services" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>There can be no peace without justice. There can be no justice without truth 
+                            and there can be no truth unless someone rises up to tell you the truth.</q>
+                        <footer>— Louis Farrakhan</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>BELIEVING</h3>
+                        <h2 class="section-title">Focusing On What Matters Most</h2>
+                        <p class="section-subtitle">One of the primary challenges witnesses face is the harm after disclosing information about a crime.</p>
+                    </div>
+                    <p>Additionally, witnesses may face intimidation, coercion, or pressure to remain silent, further complicating their decision to come forward.
+                        They may also encounter practical obstacles such as navigating the legal system, understanding their rights, or accessing resources for 
+                        support and protection.
+                        
+                    </p>
+                    <p>
+                        Here, we focus on these witnesses who need guidance to figure out their next move and having an application where they can safely 
+                        communicate with lawyers without disclosing their identity and without letting the perpetrators know their next move.
+
+                    </p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                    <a href="#" data-videoid="KQRLLmpCOO4" data-videosite="youtube" class="button video link-lightbox">
+                        WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                <div class="col-3">
+                    <img src="{{ url_for('static', filename='images/statueofjustice.jpeg') }}" alt="Statue"/>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
+
+        <!--Clients-->
+        <section id="clients" class="scrollto clearfix">
+            <div class="row clearfix">
+
+                <div class="col-3">
+
+                    <div class="section-heading">
+                        <h3>TRUST</h3>
+                        <h2 class="section-title">Companies who use our services</h2>
+                        <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo1.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Warner & Spencer</span></div>
+                    </a>
+                   <a href="firm1page.html" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo2.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Ingoude Company</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo3.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>KellyParker Attorney & Law</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo4.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Aaron Martinez</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo5.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Legal Assistance</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo6.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Williamson Law Firm</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo7.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Wardiere Counselors at Law</span></div>
+                    </a>
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo8.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Brocelle Justice Law Firm</span></div>
+                    </a>
+
+                    <a href="#" class="col-3">
+                        <img src="{{ url_for('static', filename='images/company-images/company-logo9.png') }}" alt="Company"/>
+                        <div class="client-overlay"><span>Hanover Law Firm</span></div>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+        <!--End of Clients-->
+    </main>
+    <!--End Main Content Area-->
+
+
+    <!--Footer-->
+    <footer id="landing-footer" class="clearfix">
+        <div class="row clearfix">
+
+            <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
+
+            <!--Social Icons in Footer-->
+            <ul class="col-2 social-icons">
+                <li>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Google+" href="http://google.com/+username">
+                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" title="behance" href="http://www.behance.net">
+                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                    </a>
+                </li>
+            </ul>
+            <!--End of Social Icons in Footer-->
+        </div>
+    </footer>
+    <!--End of Footer-->
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stickyNavbar.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>
