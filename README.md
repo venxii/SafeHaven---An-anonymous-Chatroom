@@ -12,10 +12,10 @@
 <p>This web application focuses on these witnesses who need guidance to figure out their next move and having an application where they can safely communicate with lawyers without disclosing their identity and without letting the perpetrators know their next move.
 </p>
 
-![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/frontpage.png)
-![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/Features.png)
-![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/Services.png)
-![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/Clients.png)
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/frontpage.png))
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Features.png))
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Services.png))
+![](https://github.com/venxii/SafeHaven---An-anonymous-Chatroom/blob/main/static/images/Clients.png))
 
 
 
